@@ -1,24 +1,36 @@
+# Deploy
+
+- **Client**: https://goodunk.netlify.app
+- **Server**: https://goodunk-server.herokuapp.com
+
 # Petunjuk Bekerja
 
 Requirements:
 
 - Install Node LTS
 - Clone Repo
+  - Front End: [client](https://www.github.com/skyespirates/goodunk-client "Repo Front End")
+  - Back End: [server](https://www.github.com/skyespirates/goodunk-server "Repo Back End")
 
 Cara Berkontribusi:
 
-1. git pull
-2. git branch **<new_branch>**
-3. git checkout **<new_branch>**
-4. masuk folder front end **cd client** atau back end **cd server**
-5. jika sudah di dalam subfolder jalankan **npm install**
-6. mulai bekerja
-7. jika sudah selesai, **git add .**
-8. git commit -m "<pesan_commit>"
-9. git pull
-10. git push origin <new_branch>
+Clone repo yang akan dikerjakan, baik itu front end maupun back end
 
-# Deploy
+```
+  git clone <link_repo>
+```
 
-- **Client**: N/A
-- **Server**: goodunk-server.herokuapp.com
+Buat branch baru
+
+```
+  git branch <new_branch>
+  git checkout <new_branch>
+```
+
+Jika sudah selesai, push branch
+
+```
+  git add .
+  git commit -m "<pesan_commit>"
+  git push -u origin <new_branch>
+```
